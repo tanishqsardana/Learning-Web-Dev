@@ -1,0 +1,64 @@
+<!https://hackr.io/blog/html-projects>
+
+<!DOCTYPE html>
+<html>  
+    <head>
+        <link href="survey_form.css" rel="stylesheet">
+        <title>Employee Interests Survey Form</title>
+        
+    </head>
+    <body class="body">
+        <b><h1 class="heading">Employee Interests Survey Form</h1></b>
+        <br>
+        <ul class="list">
+            <li>
+                <form>
+                Enter your name: <input autocomplete="off" autofocus name="q" type="text">
+                </form>
+            </li>
+            <br>
+            <li>
+                <form>
+                Enter your department: <input autocomplete="off" autofocus name="q" type="text">
+                </form>
+            </li>
+            <br>
+            <li>
+                <form>
+                Tell us a little about yourself: <textarea name="Comments" cols=30 rows=4></textarea><!--<input autocomplete="off" autofocus name="q" type="text" id="about">-->
+                </form>
+            </li>
+            <br>
+            <li>
+                <label for="exercise1">Do you exercise at home?</label>
+                <input type="radio" id="exercise1">
+                <label for="exercise1">Yes</label>
+                <input type="radio" id="exercise2">
+                <label for="exercise2">No</label>
+                
+            </li>
+            <p>How do you like to read about your favorite topics?</p>
+            <li>
+                <input type="checkbox" id="topic1">
+                <label for="topic1">Books</label>
+                <input type="checkbox" id="topic2">
+                <label for="topic2">Online Resources</label>
+                <input type="checkbox" id="topic3">
+                <label for="topic3">Phone Apps</label>
+                <input type="checkbox" id="topic4">
+                <label for="topic4">Magazines</label>
+            </li>
+            <br>
+            <li>
+                <label for="movies">What genre of movies do you like?</label>
+                <select>
+                    <option value=1 selected="true">comedy
+                    <option value=2>drama
+                    </option>
+                </select>
+            </li>
+            <br>
+            <input type="submit" value="Submit form">
+        </ul>
+    </body>
+</html>

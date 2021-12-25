@@ -1,0 +1,34 @@
+To check git version use : git --version
+
+To config your info use:
+
+git config --global user.name "your-name"
+git config --global user.email "your-email"
+
+To check if Git is already configured you can type: git config --list
+
+
+To add new changes to project use:
+
+git add .
+git commit -m "Message"
+git push   
+
+Check section on branching and forking 
+
+https://github.com/microsoft/Web-Dev-For-Beginners/blob/main/1-getting-started-lessons/2-github-basics/README.md
+
+https://training.github.com/downloads/github-git-cheat-sheet/
+
+
+Now, you have your slide deck deployed here and you've gone through the GitHub Flow.
+
+Before I say good-bye, here's a recap of all the tasks you've accomplished in your repository:
+
+You learned about issues, pull requests, and the structure of a GitHub repository
+You learned about branching
+You created a commit
+You viewed and responded to pull request reviews
+You edited an existing file
+You enabled GitHub Pages
+You made your first contribution! 🎉
