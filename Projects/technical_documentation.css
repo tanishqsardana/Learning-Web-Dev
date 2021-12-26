@@ -1,0 +1,25 @@
+.Index{
+    padding-left: 50px;
+    
+}
+.p1{
+    font-size:30px;
+}
+.info{
+    padding-left: 350px;
+    
+}
+.heading{
+    font-size:30px;
+    color: white;
+    background-color: #000000;
+    border: 1px solid #999;
+    display: block;
+    padding: 0px;
+}
+.code{
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
